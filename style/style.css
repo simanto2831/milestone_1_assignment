@@ -8,8 +8,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
-  font-family: "Merriweather", serif;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif; */
 }
 img {
   width: 100%;
@@ -18,6 +18,9 @@ img {
 button {
   border: none;
   border-radius: 5px;
+}
+section {
+  margin: 40px 0;
 }
 .clr_one {
   color: #fff;
@@ -35,9 +38,10 @@ button {
 /* css for header section */
 
 .header_section {
-  height: 80vh;
+  height: 90vh;
   position: relative;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 5px;
 }
 .header_text_container {
   position: absolute;
@@ -51,10 +55,95 @@ button {
   font-weight: 400;
   margin-bottom: 10px;
   text-align: center;
+  font-family: "Merriweather", serif;
 }
 .header_title {
   font-size: 72px;
   font-weight: 800;
   text-align: center;
   margin-top: 20px;
+  font-family: "Merriweather", serif;
 }
+
+/* css for categories section */
+.categories_container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.categories_text {
+  margin-bottom: 50px;
+}
+.categories_text > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.categories_text > h1 > .percent {
+  color: rgb(5, 70, 83);
+}
+.categories_text > h1 > .off {
+  color: #d4205c;
+}
+.categories_text h5 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.categories_text > h5 > span {
+  color: #9a0466;
+}
+.categories_text h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.categories_text > h3 > span {
+  color: #d4205c;
+}
+
+/* css for mid-night party */
+
+.party_section {
+  height: 90vh;
+  position: relative;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.mid_night_text_container {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+.mid_night_text_container h1 {
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.mid_night_text_container p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin: 30px 0;
+  line-height: 40px;
+}
+.mid_night_text_container > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+/* css for venue section */
