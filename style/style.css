@@ -145,5 +145,46 @@ section {
   color: #fff;
   letter-spacing: 4px;
 }
+.mid_night_text_container > a:hover {
+  color: #f00;
+  transition: 0.5s all;
+  border: 1px solid #fff;
+  padding: 16px 32px;
+  border-radius: 5px;
+}
 
 /* css for venue section */
+.venue_section {
+  background-color: rgb(255, 245, 245);
+  border-radius: 5px;
+}
+.venue_text {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.venue_section > div > h4 > span {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+}
+.venue_section > div > h4 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: center;
+}
+.venue_section > div > h4 > button {
+  margin-top: 40px;
+  /* margin-bottom: 70px; */
+  border: none;
+  color: #fff;
+  background-color: #f00;
+  padding: 16px 32px;
+  font-weight: 800;
+}
+.venue_section > div > h4 > button:hover {
+  color: #f00;
+  background-color: #fff;
+  transition: 0.5s all;
+}
