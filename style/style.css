@@ -10,6 +10,7 @@
 body {
   /* font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif; */
+  padding: 10px;
 }
 img {
   width: 100%;
@@ -42,6 +43,7 @@ section {
   position: relative;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   border-radius: 5px;
+  margin-top: 0 !important;
 }
 .header_text_container {
   position: absolute;
@@ -386,4 +388,51 @@ section {
 .second_item_container img:hover {
   transform: scale(1.1);
   transition: 0.5s all;
+}
+
+/* css for newsletter section */
+.newsletter_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(255, 245, 245);
+  padding-top: 100px;
+  padding-bottom: 150px;
+  border-radius: 5px;
+}
+.newsletter_wrapper img {
+  width: 100px;
+  margin: 30px 0;
+}
+.newsletter_wrapper h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Merriweather", sans-serif;
+}
+.newsletter_wrapper p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.newsletter_input input {
+  padding: 20px 50px;
+  border: none;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: none;
+}
+.newsletter_input span {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #f00;
+  padding: 12px 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
