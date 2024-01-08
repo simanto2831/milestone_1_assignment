@@ -309,7 +309,7 @@ section {
   width: 400px;
   margin: 5px auto;
 }
-.holiday_images {
+/* .holiday_images {
   position: relative;
   height: 45vh;
 }
@@ -321,11 +321,11 @@ section {
 }
 .group_img > .group_1,
 .group_img > .group_2 {
-  flex-basis: 45%;
+  flex-basis: 50%;
 }
 
 .group_img > img {
-  width: 400px;
+  width: 350px;
   height: auto;
 }
 .off_sec {
@@ -337,4 +337,53 @@ section {
 .off_sec > img {
   width: 200px;
   height: 200px;
+} */
+
+/* css for Awesome_portfolio_section */
+.awesome_portfolio_section > .portfolio_text_container {
+  padding: 50px 0;
+}
+.portfolio_text_container > h4 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.portfolio_text_container > h2 {
+  color: #070211;
+  font-family: "Merriweather", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 15px 0;
+}
+.portfolio_text_container > P {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 500px;
+}
+.first_item_container img,
+.second_item_container img {
+  width: 350px;
+  flex-basis: 30%;
+  padding: 20px;
+}
+.first_item_container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s all;
+}
+.first_item_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.second_item_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.second_item_container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s all;
 }
