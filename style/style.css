@@ -198,7 +198,6 @@ section {
 }
 .offer_column_one {
   flex-basis: 30%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -278,4 +277,64 @@ section {
 }
 .offer_column_three img {
   width: 100px;
+}
+
+/* css for holiday_off section */
+.holiday_text_container {
+  margin-top: 100px;
+}
+.holiday_text_container > h4 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.holiday_text_container > h2 {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 0;
+}
+.holiday_text_container > h2 > .holidays {
+  color: #f00;
+}
+.holiday_text_container > h2 > .percent {
+  font-family: "Merriweather", serif;
+}
+.holiday_text_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  width: 400px;
+  margin: 5px auto;
+}
+.holiday_images {
+  position: relative;
+  height: 45vh;
+}
+.group_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.group_img > .group_1,
+.group_img > .group_2 {
+  flex-basis: 45%;
+}
+
+.group_img > img {
+  width: 400px;
+  height: auto;
+}
+.off_sec {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, 30%);
+}
+.off_sec > img {
+  width: 200px;
+  height: 200px;
 }
