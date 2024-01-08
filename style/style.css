@@ -24,7 +24,7 @@ section {
   margin: 40px 0;
 }
 .clr_one {
-  color: #fff;
+  color: #e8e3e3;
 }
 .clr_two {
   color: #070211;
@@ -53,14 +53,14 @@ section {
   width: 700px;
 }
 .header_text {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 10px;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 .header_title {
-  font-size: 72px;
+  font-size: 80px;
   font-weight: 800;
   text-align: center;
   margin-top: 20px;
@@ -282,6 +282,7 @@ section {
 }
 
 /* css for holiday_off section */
+
 .holiday_text_container {
   margin-top: 100px;
 }
@@ -311,35 +312,31 @@ section {
   width: 400px;
   margin: 5px auto;
 }
-/* .holiday_images {
+.holiday_images {
   position: relative;
-  height: 45vh;
-}
-.group_img {
+  height: 80vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 40px;
 }
-.group_img > .group_1,
-.group_img > .group_2 {
-  flex-basis: 50%;
+.holiday_images img {
+  margin: 30px auto;
+  width: 70%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-
-.group_img > img {
-  width: 350px;
-  height: auto;
+.holiday_images img:hover {
+  transform: scale(1.1);
+  transition: 0.5s all;
 }
 .off_sec {
   position: absolute;
   top: 50%;
   left: 52%;
-  transform: translate(-50%, 30%);
+  transform: translate(-170%, -113%);
 }
 .off_sec > img {
   width: 200px;
   height: 200px;
-} */
+}
 
 /* css for Awesome_portfolio_section */
 .awesome_portfolio_section > .portfolio_text_container {
